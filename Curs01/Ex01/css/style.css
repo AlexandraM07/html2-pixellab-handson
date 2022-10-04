@@ -42,6 +42,14 @@ body > h2 {
   .box-2 {
     display: none;
   }
+
+  .box-1 {
+    display: none;
+  }
+
+  body {
+    padding: 15px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -70,10 +78,19 @@ body > h2 {
   .box-4 {
     display: none;
   }
+
+  .box-2 {
+    border: yellow;
+    color: white;
+  }
 }
 
 @media (min-width: 1200px) {
   .box-5 {
+    display: none;
+  }
+
+  body > h3 {
     display: none;
   }
 }
@@ -84,6 +101,16 @@ body > h2 {
   }
 
   .box-4 {
+    color: red;
+  }
+
+  .box-1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  body > h3 {
     color: red;
   }
 }
