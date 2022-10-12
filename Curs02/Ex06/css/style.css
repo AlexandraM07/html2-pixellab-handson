@@ -1,65 +1,17 @@
-.line {
-  display: flex;
-  justify-content: space-between;
-  margin: 16px 0;
-}
+/* Error: expected ";".
+ *    ,
+ * 21 | $margins:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;
+ *    |              ^
+ *    '
+ *   scss\app.scss 21:14  root stylesheet */
 
-.box {
-  width: 150px;
-  height: 150px;
-  border: 1px solid #000;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    \2577 \a 21 \2502  $margins:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;\d\a    \2502               ^\a    \2575 \a   scss\\app.scss 21:14  root stylesheet';
 }
-
-.b-dotted {
-  border-style: dotted;
-}
-
-.b-solid {
-  border-style: solid;
-}
-
-.b-dashed {
-  border-style: dashed;
-}
-
-.b-double {
-  border-style: double;
-}
-
-.b-none {
-  border-style: none;
-}
-
-.b-4px {
-  margin: 4px;
-}
-
-.b-8px {
-  margin: 8px;
-}
-
-.b-16px {
-  margin: 16px;
-}
-
-.b-32px {
-  margin: 32px;
-}
-
-.b-4px {
-  padding: 4px;
-}
-
-.b-8px {
-  padding: 8px;
-}
-
-.b-16px {
-  padding: 16px;
-}
-
-.b-32px {
-  padding: 32px;
-}
-
-/*# sourceMappingURL=style.css.map */

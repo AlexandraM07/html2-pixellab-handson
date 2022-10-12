@@ -22,6 +22,6 @@
 
 @for $i from 1 to 9 {
   .box-#{$i} {
-    border: 1px solid blue;
+    border: 1px solid;
   }
 }
