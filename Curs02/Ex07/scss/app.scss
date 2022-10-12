@@ -17,3 +17,31 @@ $data: (
     color: $color;
   }
 }
+
+$data: (
+  'bg-main': red,
+  'bg-primary': blue,
+  'bg-secondary': green,
+  'bg-tertiary': yellow,
+  'bg-neutral': gray,
+);
+
+@each $suffix, $color in $data {
+  .btn-#{$suffix} {
+    background-color: $color;
+  }
+}
+
+$data: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $suffix, $color in $data {
+  .text-#{$suffix} {
+    color: $color;
+  }
+}

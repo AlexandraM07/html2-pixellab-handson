@@ -17,3 +17,19 @@ $borders: dotted, solid, dashed, double, none;
     border-style: $borderStyle;
   }
 }
+
+$margins: 4px, 8px, 16px, 32px;
+
+@each $margin in $margins {
+  .b-#{$margin} {
+    margin: $margin;
+  }
+}
+
+$paddings: 4px, 8px, 16px, 32px;
+
+@each $padding in $paddings {
+  .b-#{$padding} {
+    padding: $padding;
+  }
+}

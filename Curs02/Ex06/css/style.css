@@ -30,4 +30,36 @@
   border-style: none;
 }
 
+.b-4px {
+  margin: 4px;
+}
+
+.b-8px {
+  margin: 8px;
+}
+
+.b-16px {
+  margin: 16px;
+}
+
+.b-32px {
+  margin: 32px;
+}
+
+.b-4px {
+  padding: 4px;
+}
+
+.b-8px {
+  padding: 8px;
+}
+
+.b-16px {
+  padding: 16px;
+}
+
+.b-32px {
+  padding: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
