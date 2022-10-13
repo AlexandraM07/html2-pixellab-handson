@@ -20,8 +20,8 @@
   }
 }
 
-@for $i from 1 to 9 {
-  .box-#{$i} {
-    border: 1px solid;
+@for $i from 0 to 10 {
+  .box-0#{$i + 1} {
+    border: $i + 1px solid #000;
   }
 }

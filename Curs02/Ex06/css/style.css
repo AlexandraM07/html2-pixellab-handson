@@ -1,17 +1,65 @@
-/* Error: expected ";".
- *    ,
- * 21 | $margins:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;
- *    |              ^
- *    '
- *   scss\app.scss 21:14  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 21 \2502  $margins:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;\d\a    \2502               ^\a    \2575 \a   scss\\app.scss 21:14  root stylesheet';
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
 }
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.b-dotted {
+  border-style: dotted;
+}
+
+.b-solid {
+  border-style: solid;
+}
+
+.b-dashed {
+  border-style: dashed;
+}
+
+.b-double {
+  border-style: double;
+}
+
+.b-none {
+  border-style: none;
+}
+
+.m-xs {
+  margin: 4px;
+}
+
+.m-sm {
+  margin: 8px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.m-lg {
+  margin: 32px;
+}
+
+.p-xs {
+  padding: 4px;
+}
+
+.p-sm {
+  padding: 8px;
+}
+
+.p-md {
+  padding: 16px;
+}
+
+.p-lg {
+  padding: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

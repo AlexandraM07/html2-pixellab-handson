@@ -18,18 +18,21 @@ $borders: dotted, solid, dashed, double, none;
   }
 }
 
-$margins:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;
+$sizez: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
 
-@each $margin in $margins {
-  .m-#{$margin} {
-    margin: $margin;
+@each $size, $value in $sizez {
+  .m-#{$size} {
+    margin: $value;
   }
 }
 
-$paddings:"xs": 4px, "sm": 8px, "md": 16px, "lg": 32px;
-
-@each $padding in $paddings {
-  .p-#{$padding} {
-    padding: $padding;
+@each $size, $value in $sizez {
+  .p-#{$size} {
+    padding: $value;
   }
 }
